@@ -1,0 +1,6 @@
+Django==1.9.8
+django-jinja==2.2.0
+Jinja2==2.8
+MarkupSafe==0.23
+django-auth-ldap-ng==1.7.6
+pyexchange
