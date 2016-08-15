@@ -4,3 +4,5 @@ Jinja2==2.8
 MarkupSafe==0.23
 django-auth-ldap-ng==1.7.6
 pyexchange
+django-angular
+django-cors-headers

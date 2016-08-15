@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<ul>
+<p> Мероприятие | Время </p>
+{% for event in events %}
+    <li>{{ event.subject }} | {{ event.start }} - {{ event.end }}</li>
+{% endfor %}
+</ul>
 </body>
 </html>

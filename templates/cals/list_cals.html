@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<ul>
+{% for folder in folders %}
+    <li>{{ folder.display_name }} | {{ folder.id }}</li>
+{% endfor %}
+</ul>
 </body>
 </html>

@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<form method="post" action="/cals/events/get/">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Отправить">
+</form>
 </body>
 </html>
